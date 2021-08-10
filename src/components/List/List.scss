@@ -1,3 +1,25 @@
 .list {
   flex: 0.3;
+  height: 100%;
+
+  h3 {
+    margin: 15px 15px;
+    font-size: large;
+  }
+
+  .loading {
+    margin: 40% 50%;
+  }
+
+  &__forms {
+    display: flex;
+    margin: 0 15px;
+    justify-content: space-between;
+  }
+
+  &__container {
+    height: 82.5%;
+    margin-top: 10px;
+    overflow-y: scroll;
+  }
 }

@@ -8,6 +8,8 @@ $black: #000000;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(0, 132, 255);
+  // position: sticky;
+  // z-index: 1;
 
   &__left {
     margin-left: 20px;

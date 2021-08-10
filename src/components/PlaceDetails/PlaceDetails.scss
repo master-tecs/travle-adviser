@@ -1,0 +1,102 @@
+.placeDetails {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  padding-bottom: 10px;
+  box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.75);
+
+  img {
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  h3 {
+    font-size: larger;
+    margin: 15px 15px 0;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+  }
+
+  &__award {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+    img {
+      width: 25px;
+    }
+  }
+
+  &__cuisine {
+    margin: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &--c {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      height: 35px;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 0 7px !important;
+      background-color: lightgray;
+      border-radius: 25px;
+
+      span {
+        font-size: small;
+      }
+    }
+  }
+
+  &__address,
+  &__phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 15px;
+    font-size: small;
+  }
+
+  &__cta {
+    margin: 20px 15px;
+
+    .btn {
+      border: none;
+      padding: 7px 15px;
+      margin-right: 15px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: transform 450ms;
+
+      box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.75);
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &-primary {
+        background-color: rgb(109, 146, 247);
+      }
+
+      &-secondary {
+        background-color: rgb(131, 241, 98);
+      }
+    }
+  }
+}

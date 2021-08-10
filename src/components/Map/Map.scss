@@ -1,3 +1,30 @@
 .map {
   flex: 0.7;
+
+  &__place {
+    width: 130px;
+
+    &--c {
+      margin: auto;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+
+      p {
+        margin: 10px;
+        font-size: small;
+      }
+
+      img {
+        margin: auto;
+        width: 93%;
+        height: 100px;
+      }
+    }
+  }
 }
